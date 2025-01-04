@@ -24,3 +24,15 @@ path = "src/2-dT/dtypes.rs"
 [[bin]]
 name = "3-f"
 path = "src/3-strings/3-string.rs"
+
+[[bin]]
+name = "4-f"
+path = "src/4-Operators/op.rs"
+
+[[bin]]
+name = "41-f"
+path = "src/4-Operators/lp.rs"
+
+[[bin]]
+name = "5-f"
+path = "src/5-functions/func.rs"

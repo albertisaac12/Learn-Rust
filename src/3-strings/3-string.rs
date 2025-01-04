@@ -20,4 +20,45 @@ fn main(){
 
     let bank2:& 'static str = "hi there ";
 
+    // string object
+
+    let nothing = String::new();
+    println!("{}",nothing.len());
+
+    let great_movie = String::from("Helloooooo");
+    println!("{}",great_movie.len());
+
+    // String methods
+    /*
+        The Sting object are mutable
+        new()
+        to_string()
+        len()
+        from()
+        push()
+        replace()
+        push_str()
+        trim()
+        split_withespace()
+        split()
+        as_str()
+        chars()
+     */
+
+    let mut greeting = String::from("hey there, ");
+    greeting.push_str("Hello");
+    println!("{}",greeting);
+
+    // convert a string literal into a string Object
+
+    let randum_string:&str = "convert mee";
+    // let randum_string = "convert mee".to_string();
+    let fff = randum_string.to_string();
+    println!("{}",fff);
+
+    let mut bb = "pokemon".to_string();
+    bb.push_str(" Gotta catch them all");
+
+    println!("{}",bb);
+
 }
