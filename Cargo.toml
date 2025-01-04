@@ -36,3 +36,11 @@ path = "src/4-Operators/lp.rs"
 [[bin]]
 name = "5-f"
 path = "src/5-functions/func.rs"
+
+[[bin]]
+name = "6-f"
+path = "src/6-Tuples/tp.rs"
+
+[[bin]]
+name = "7-f"
+path = "src/7-arrays/arr.rs"

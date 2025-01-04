@@ -71,3 +71,61 @@ Match Operator
 `fn cc(blah:i32) -> i32{
     return blah-10;
 }`
+
+## Tuples
+
+Tuples are compound data types.
+Compound types can store values at the same time of different data types.
+
+Tuples have a fixed length - once declared they cannot grow or shrink in size.
+The tuple index start from 0.
+
+decleration `let ff:(i8,f32,i32) = (2,2.2,100);`
+
+### To print a Tuple we use :? `println!("{:?}",ff);` here ff is the tuple.
+
+---
+
+### `{:?} more specifically the :?` is known as the debug formatting the Debug Trait is for detailed and developer-focused output that shows more information about a type, often in a less polished way.
+
+### `{}` is the Display Trait used for clean and human-readable output meant for end users. For example, printing a number or message.
+
+---
+
+## Arrays in Rust
+
+An array consists of sequential memory blocks.
+
+Arrays are static by default.
+
+Arrays cannot be resized once initialized
+
+Each memory block represents an array element.
+
+Array elements are identified by the index.
+
+---
+
+Array element values can be updated or modified but cannot be deleted.
+
+Length is known at the compile time Signature: [T; length].
+
+### Even the arrays do not implement the Display Trait
+
+`let arrd:[&str; 4] = ["ab","bc","cd","de"];
+// let arrd = ["ab","bc","cd","de"];`
+
+Both of the above are the same in the commented section the rust will auto assign the data type and length
+
+Arrays can be made mutable with the `mut` keyword like any other mutable data types
+
+### iter() Function iterates over the array values
+
+// the iter function
+
+`for val in c.iter(){
+ println!("{}",val);
+}
+`
+
+---
