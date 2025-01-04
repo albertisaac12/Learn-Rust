@@ -1,0 +1,14 @@
+[package]
+name = "Learn-Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "hello_world"
+path = "src/Hello-World/main.rs"
+
+[[bin]]
+name = "comments"
+path = "src/Comments/comments.rs"
