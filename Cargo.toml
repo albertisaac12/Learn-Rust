@@ -12,3 +12,15 @@ path = "src/Hello-World/main.rs"
 [[bin]]
 name = "comments"
 path = "src/Comments/comments.rs"
+
+[[bin]]
+name = "1-f"
+path = "src/1-First-Program/first.rs"
+
+[[bin]]
+name = "2-f"
+path = "src/2-dT/dtypes.rs"
+
+[[bin]]
+name = "3-f"
+path = "src/3-strings/3-string.rs"
