@@ -21,3 +21,9 @@ fn main(){
 
     println!("{}", result);
 }
+
+fn aa(x:i32)-> i32{
+    let mut y = 0;
+    y=x+10;
+    return  y;
+}
