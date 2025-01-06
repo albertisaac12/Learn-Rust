@@ -135,3 +135,5 @@ Rust's `char` type is `four bytes` in size and represents a Unicode Scalar Value
 Mutable `Tuples` are also possible in Rust
 
 The `floating-point` type by default is `f64` but `f32` is also possible, while `f64 is double precision` `f32 is single precision`
+
+**If you add a semicolon `;` to the end of an expression, you turn it into a statement, and it will then not return a value.**

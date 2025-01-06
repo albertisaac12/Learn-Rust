@@ -48,3 +48,7 @@ path = "src/7-arrays/arr.rs"
 [[bin]]
 name = "8-f"
 path = "src/8-shadowing/shadow.rs"
+
+[[bin]]
+name = "9-f"
+path = "src/9-miscControlFlow/misc.rs"
