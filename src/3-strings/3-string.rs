@@ -7,7 +7,7 @@ fn main(){
     /*
     
         String literals are static by default. This ensures that the string is valid for the entire duration of the program.
-        String literals are immutable my nature 
+        String literals are immutable my   nature 
 
         In Rust, string literals are static by default. 
         This means that when you define a string literal, 
@@ -26,7 +26,7 @@ fn main(){
     println!("{}",nothing.len());
 
     let great_movie = String::from("Helloooooo");
-    println!("{}",great_movie.len());
+    println!("{}",great_movie.len ());
 
     // String methods
     /*
