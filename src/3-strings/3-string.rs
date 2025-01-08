@@ -26,7 +26,7 @@ fn main(){
     println!("{}",nothing.len());
 
     let great_movie = String::from("Helloooooo");
-    println!("{}",great_movie.len ());
+    println!("{}",great_movie.len());
 
     // String methods
     /*
