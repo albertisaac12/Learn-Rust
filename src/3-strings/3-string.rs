@@ -18,7 +18,7 @@ fn main(){
     
      */
 
-    let bank2:& 'static str = "hi there ";
+    let bank2:& 'static str = "hi there";
 
     // string object
 
