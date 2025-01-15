@@ -165,3 +165,13 @@ A slice is a kind of reference, so it does not have ownership.
 Slices essentially point to data.
 
 They are passed by reference to functions i.e borrowing. You can use them to fetch portions of data and customize what you what to slice.
+
+# NOTE FROM RUST BOOK
+
+**If you’ve heard the terms shallow copy and deep copy while working with other languages, the concept of copying the pointer, length, and capacity without copying the data probably sounds like making a shallow copy. But because Rust also invalidates the first variable, instead of being called a shallow copy, it’s known as a move. We would say that s1 was moved into s2.**
+
+**In addition, there’s a design choice that’s implied by this: Rust will never automatically create “deep” copies of your data. Therefore, any automatic copying can be assumed to be inexpensive in terms of runtime performance.**
+
+**The ownership of a variable follows the same pattern every time: assigning a value to another variable moves it. When a variable that includes data on the heap goes out of scope, the value will be cleaned up by drop unless ownership of the data has been moved to another variable.**
+
+**Mutable references have one big restriction: if you have a mutable reference to a value, you can have no other references to that value.**

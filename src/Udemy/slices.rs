@@ -19,3 +19,12 @@ fn change(x: &mut [i32]){
     x[0] = 200;
     println!("{:?}",&x[1..3]);
 }
+
+/*
+    When a variable goes out of scope, Rust calls a special function for us. 
+    This function is called drop, and it’s where the author of String can put the code to return the memory. 
+    Rust calls drop automatically at the closing curly bracket.
+
+    Rust won’t let us annotate a type with Copy if the type, or any of its parts, has implemented the Drop trait. 
+    If the type needs something special to happen when the value goes out of scope and we add the Copy annotation to that type, we’ll get a compile-time error.
+*/
