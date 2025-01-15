@@ -9,7 +9,7 @@ fn main(){
     let jj:(i32,bool,&str) = (100,true,"Hello");   
     blah(jj);
 }
-
+    
 fn blah(tp:(i32,bool,&str)){
     let(a,b,c) = tp;
     println!("{}\n{}\n{}",a,b,c);

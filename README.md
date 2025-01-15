@@ -137,3 +137,31 @@ Mutable `Tuples` are also possible in Rust
 The `floating-point` type by default is `f64` but `f32` is also possible, while `f64 is double precision` `f32 is single precision`
 
 **If you add a semicolon `;` to the end of an expression, you turn it into a statement, and it will then not return a value.**
+
+## STACK HEAP
+
+**All data stored on the stack must have a known, fixed size.**
+**Data with an unknown size at compile time or a size that might change must be stored on the heap instead.**
+**The heap is less organized: when you put data on the heap, you request a certain amount of space. The memory allocator finds an empty spot in the heap that is big enough, marks it as being in use, and returns a pointer, which is the address of that location.**
+**This process is called allocating on the heap and is sometimes abbreviated as just allocating (pushing values onto the stack is not considered allocating)**
+
+## NOTE
+
+**Each value in Rust has an owner.**
+**There can only be one owner at a time.**
+**When the owner goes out of scope, the value will be dropped.**
+
+---
+
+# NOTE: **READ THE ./src/Udemy/ownership.rs for the ownership**
+
+---
+
+## Slices
+
+Slices in rust let you reference a contiguous sequence of elements in a collection rather than the whole collection.
+A slice is a kind of reference, so it does not have ownership.
+
+Slices essentially point to data.
+
+They are passed by reference to functions i.e borrowing. You can use them to fetch portions of data and customize what you what to slice.

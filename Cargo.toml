@@ -52,3 +52,15 @@ path = "src/8-shadowing/shadow.rs"
 [[bin]]
 name = "9-f"
 path = "src/9-miscControlFlow/misc.rs"
+
+[[bin]]
+name = "10-f"
+path = "src/10-StackHEAP/stack-heap.rs"
+
+[[bin]]
+name = "ownership"
+path = "src/Udemy/ownership.rs"
+
+[[bin]]
+name = "slice"
+path = "src/Udemy/slices.rs"

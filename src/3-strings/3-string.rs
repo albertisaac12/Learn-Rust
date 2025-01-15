@@ -7,7 +7,7 @@ fn main(){
     /*
     
         String literals are static by default. This ensures that the string is valid for the entire duration of the program.
-        String literals are immutable my   nature 
+        String literals are immutable by nature 
 
         In Rust, string literals are static by default. 
         This means that when you define a string literal, 
@@ -19,7 +19,6 @@ fn main(){
      */
 
     let bank2:& 'static str = "hi there ";
-
     // string object
 
     let nothing = String::new();
@@ -60,5 +59,8 @@ fn main(){
     bb.push_str(" Gotta catch them all");
 
     println!("{}",bb);
+
+    // let blahh = "aaaa";
+    // blahh = "";
 
 }
