@@ -175,3 +175,13 @@ They are passed by reference to functions i.e borrowing. You can use them to fet
 **The ownership of a variable follows the same pattern every time: assigning a value to another variable moves it. When a variable that includes data on the heap goes out of scope, the value will be cleaned up by drop unless ownership of the data has been moved to another variable.**
 
 **Mutable references have one big restriction: if you have a mutable reference to a value, you can have no other references to that value.**
+
+## Structs
+
+**essentially a struct is like an object that holds diffrent data types unlike tuple we do named declaration of these types inside struct**
+
+**Methods are functions which belong in the scope within a structure.**
+
+**You declare the methods with the impl keyword outside of the structure block.**
+
+**Important to note that the parameter of a method will be always self, which represents the calling instance of the structure**

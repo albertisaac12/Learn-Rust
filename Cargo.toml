@@ -68,3 +68,7 @@ path = "src/Udemy/slices.rs"
 [[bin]]
 name = "dangle"
 path = "src/Udemy/dangle.rs"
+
+[[bin]]
+name = "structs"
+path = "src/Udemy/structs.rs"
