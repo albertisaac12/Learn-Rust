@@ -72,3 +72,15 @@ path = "src/Udemy/dangle.rs"
 [[bin]]
 name = "structs"
 path = "src/Udemy/structs.rs"
+
+[[bin]]
+name = "structs2"
+path = "src/Udemy/structs2.rs"
+
+[[bin]]
+name = "structs3"
+path = "src/Udemy/structMethodsAdvance.rs"
+
+[[bin]]
+name = "enum"
+path = "src/Udemy/Enums.rs"
