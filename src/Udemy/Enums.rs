@@ -13,6 +13,14 @@ enum withTypes{
     V4(u8, u8, u8, u8),
 }
 
+
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter,
+}
+
 // struct city {
 //     name:String,
 //     day:days
@@ -35,6 +43,31 @@ fn main(){
   println!("{:?}",_v4);
   
   println!("{:?}",_v3);
+
+//   let x: Option<i32> = Some(5);
+// // println!("{}", x + 1); // Error: can't use Option<i32> as i32
+
+// if let Some(value) = x {
+//     println!("{}", value + 1); // Works because we handle the Option
+// }
+
+// enums with control flow (match)
+
+
+let _penny = Coin::Penny;
+let cents_penny = val_in_cents(_penny);
+println!("{}",cents_penny);
+
+let m = 3;
+
+let f = match m {
+    1=> 3,
+    _=>3
+};
+
+println!("{f}");
+
+
 }
 
 /*
@@ -44,3 +77,12 @@ fn main(){
 
 
 */
+
+fn val_in_cents(coin:Coin)->u8{
+    match coin {
+        Coin::Penny => 1,
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter => 25,
+    }
+}
