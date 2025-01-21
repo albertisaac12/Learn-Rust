@@ -84,3 +84,7 @@ path = "src/Udemy/structMethodsAdvance.rs"
 [[bin]]
 name = "enum"
 path = "src/Udemy/Enums.rs"
+
+[[bin]]
+name = "enum2"
+path = "src/Udemy/Enums2.rs"
