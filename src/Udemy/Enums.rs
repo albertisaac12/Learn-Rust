@@ -62,7 +62,7 @@ let m = 3;
 
 let f = match m {
     1=> 3,
-    _=>3
+    _=>4
 };
 
 println!("{f}");
