@@ -37,6 +37,12 @@ mod garden;
 */
 
 /*
+
+    Earlier, we mentioned that src/main.rs and src/lib.rs are called crate roots. The reason for their name is that the contents of either of these two files form a module named crate at the root of the crate’s module structure, known as the module tree.
+
+*/
+
+/*
     structure : 
     in the root crate we use module 
 
@@ -45,3 +51,27 @@ mod garden;
 fn main(){
 
 }
+
+
+/*
+
+backyard
+├── Cargo.lock
+├── Cargo.toml
+└── src
+    ├── garden
+    │   └── vegetables.rs
+    ├── garden.rs
+    └── main.rs
+
+According to the above structure inside the main.rs there is a module named garden and inside garden.rs we have a module named vegetable.rs 
+
+*/
+
+
+/*
+    PATHS
+    An absolute path is the full path starting from a crate root; for code from an external crate, the absolute path begins with the crate name, and for code from the current crate, it starts with the literal crate.
+    A relative path starts from the current module and uses self, super, or an identifier in the current module.
+    
+*/
