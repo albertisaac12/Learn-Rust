@@ -92,3 +92,15 @@ path = "src/Udemy/Enums2.rs"
 [[bin]]
 name = "module1"
 path = "src/Udemy/modules1.rs"
+
+[[bin]]
+name = "module2"
+path = "src/Udemy/modules2.rs"
+
+[[bin]]
+name = "hm1"
+path = "src/Udemy/hashMap1.rs"
+
+[[bin]]
+name = "error1"
+path = "src/Udemy/ErrorHandling/error1.rs"
