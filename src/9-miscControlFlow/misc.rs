@@ -62,4 +62,6 @@ fn bb(){
 
     let mut sd:&str = "sdadada";
     sd ="fuck";
+
+    // let c = if 1 == 1 {2}else {"fuck"};
 }
