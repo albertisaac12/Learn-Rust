@@ -3,7 +3,6 @@
 // unwrap := unwrap(self): T
 // expect := expect(self, msg: &str): T
 
-use core::{num, panic};
 use std::{fs::File, io};
 mod isSeven;
 

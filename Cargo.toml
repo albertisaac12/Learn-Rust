@@ -104,3 +104,7 @@ path = "src/Udemy/hashMap1.rs"
 [[bin]]
 name = "error1"
 path = "src/Udemy/ErrorHandling/error1.rs"
+
+[[bin]]
+name = "vec2"
+path = "src/Udemy/vectors2.rs"
