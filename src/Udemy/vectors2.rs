@@ -7,7 +7,7 @@ fn main(){
 
     let v:Vec<u32> = vec![1,2,3,4];
 
-    let third = &v[2];
+    let third = v[2];
 
     println!("{}",&third);
 
@@ -17,6 +17,10 @@ fn main(){
         Some(bc) => println!("{}",bc),
         None => panic!()
     }
+
+    // let v = vec![String::from("hello"), String::from("world")];
+    // let third = v[1]; // This would cause a move since `String` does not implement `Copy`. // this will also throw an error
+
 
     // let mut v = vec![1, 2, 3, 4, 5];
 
